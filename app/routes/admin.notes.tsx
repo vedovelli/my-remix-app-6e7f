@@ -17,7 +17,6 @@ export default function () {
 
   return (
     <>
-      <h1>NOTES</h1>
       <ul>
         {notes.map((note) => (
           <li key={note.id}>
